@@ -1,0 +1,41 @@
+body{
+    background: blue;
+}
+.box h2{
+    font-family: 'Lucida Sans';
+    color: blue;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+    padding: 80px;
+}
+box.input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+box.textarea {
+    height: 200px;
+    padding: 5px 30px 5px 5px;
+    margin-bottom: 40px;
+}
+button
+{
+    color: antiquewhite;
+    background: blue;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+}
+#name,
+#age,
+#income,
+#casilla
+{
+    width: 100%;
+    box-sizing: border-box;   
+}
+
